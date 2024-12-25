@@ -479,3 +479,118 @@
 .footer-bottom p{
     margin-right: 80px;
 }
+
+
+/* Media Queries */
+
+/* Extra Small Devices (Phones, 0-575px) */
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .top-row, .bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .nav-item {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+    .search-bar input {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .All-category a {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .categories-grid {
+        justify-content: center;
+        margin-left: 0;
+        gap: 15px;
+    }
+    .category-card {
+        width: 100px;
+    }
+    .Hero-section img {
+        width: 100%;
+    }
+    footer .footer-container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+/* Small Devices (Tablets, 576-768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .header {
+        padding: 15px;
+    }
+    .top-row, .bottom-row {
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .nav-item {
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    .search-bar input {
+        flex: 3;
+    }
+    .categories-grid {
+        margin-left: 50px;
+        gap: 20px;
+    }
+    .Hero-section img {
+        width: 90%;
+    }
+}
+
+/* Medium Devices (Laptops, 769-992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .header {
+        padding: 20px;
+    }
+    .top-row {
+        margin-left: 50px;
+    }
+    .categories-grid {
+        margin-left: 70px;
+        gap: 25px;
+    }
+}
+
+/* Large Devices (Desktops, 993-1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .header {
+        padding: 20px 30px;
+    }
+    .top-row {
+        margin-left: 80px;
+    }
+    .categories-grid {
+        margin-left: 80px;
+        gap: 30px;
+    }
+}
+
+/* Extra Large Devices (Large Screens, 1201px and above) */
+@media (min-width: 1201px) {
+    .header {
+        padding: 25px 40px;
+    }
+    .top-row {
+        margin-left: 100px;
+    }
+    .categories-grid {
+        margin-left: 100px;
+        gap: 35px;
+    }
+}
